@@ -25,7 +25,7 @@ SECRET_KEY = 'n135c7a+22iar@m(d(v@@-d_8=5xhy1x5vdyvs0gay$9+bke4)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["unlimitedmatrix.pythonanywhere.com"]
 
 
 # Application definition
