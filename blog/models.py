@@ -14,7 +14,7 @@ class Post(models.Model): # defining a Django Modle "Post" by using models.Model
     published_date = models.DateTimeField(
             blank = True, null = True)
 
-def publishh(self):
+def publish(self):
     self.published_date = timezone.now()
     self.save()
 
